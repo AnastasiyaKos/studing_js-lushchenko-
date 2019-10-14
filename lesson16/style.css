@@ -3,16 +3,22 @@
 }
 
 .form-slider {
+    margin: 50px 500px;
     display: flex;
     position: relative;
     width: 200px;
     height: 300px;
     background-color: azure;
     border: 1px solid brown;
+    overflow: hidden;
 }
 
 .left-50, .right-50 {
     min-width: 200px;
     max-height: 300px;
     padding: 0 15px;
+}
+
+.right-50 {
+    overflow-y: scroll;
 }
