@@ -22,3 +22,8 @@
 .right-50 {
     overflow-y: scroll;
 }
+
+.bnt-next,
+.btn-back {
+    cursor: pointer;
+}

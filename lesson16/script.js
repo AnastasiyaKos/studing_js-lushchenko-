@@ -8,9 +8,9 @@ moreInfo.onclick = () => {
 };
 
 for (let i = 0; i < backBtn.length; i++) {
-    backBtn[i].onclick = back();
+    backBtn[i].onclick = back;
 }
 
-function  back () {
+function  back() {
     leftPage.style.marginLeft = '0px';
 }
